@@ -10,11 +10,11 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="?page=utama">Sistem Informasi Perguruan Bermasalah</a>
+            <a class="navbar-brand" href="?page=utama">Sistem Informasi Perguruan Tinggi Bermasalah</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Data Monevv</a></li>
+                <li class="active"><a href="#">Data PT Bermasalah</a></li>
 
                 <?php if(isset($_SESSION['level']) && $_SESSION['level']==1) { ?>
                 <li class="dropdown">
